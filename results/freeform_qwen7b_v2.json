@@ -1,0 +1,258 @@
+{
+ "n": {
+  "gsm8k": 800,
+  "nq": 2000
+ },
+ "results": {
+  "base": {
+   "gsm8k": {
+    "acc": 0.91375
+   },
+   "nq": {
+    "acc": 0.237
+   }
+  },
+  "floor_rebatch": {
+   "gsm8k": {
+    "change": 0.04,
+    "ucb_full": 0.07152911609132294,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.915,
+    "acc_change": 0.0012500000000000844,
+    "n": 800,
+    "examples": [
+     [
+      "A merchant wants to make a choice of purchase between 2 purchase plans: jewelry ",
+      "or electronic gadgets:\n\\[ \\text{Profit} = 8096 - 8000 = 96 \\]\n\nThe answer is 96.",
+      "\\text{Profit}_{\\text{gadgets}} = 96 \\]\n\n### Conclusion\n\nComparing the profits:\n-"
+     ],
+     [
+      "Luke is spending time at the beach building sandcastles. He eventually notices t",
+      "{\\text{Number of levels}} = \\frac{30}{4} = 7.5\\) square feet\n\nThe answer is 7.5.",
+      "mber of levels\n   - Average square footage = \\(240 / 4 = 60\\)\n\nThe answer is 60."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.0705,
+    "ucb_full": 0.09435776166118619,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.2365,
+    "acc_change": -0.0005000000000000004,
+    "n": 2000,
+    "examples": [
+     [
+      "who is the first wife on sister wives?\n\nAnswer with a short phrase only.",
+      "Kari Ann Bracken Healey",
+      "Kari Ann Birkeland"
+     ],
+     [
+      "when did they stop cigarette advertising on television?\n\nAnswer with a short phr",
+      "January 1, 1971",
+      "January 2014"
+     ]
+    ]
+   }
+  },
+  "null": {
+   "gsm8k": {
+    "change": 0.0,
+    "ucb_full": 0.012029056940722942,
+    "cert_eps5": true,
+    "n_to_cert": 175,
+    "acc": 0.91375,
+    "acc_change": 0.0,
+    "n": 800,
+    "examples": []
+   },
+   "nq": {
+    "change": 0.0,
+    "ucb_full": 0.005284554656239743,
+    "cert_eps5": true,
+    "n_to_cert": 175,
+    "acc": 0.237,
+    "acc_change": 0.0,
+    "n": 2000,
+    "examples": []
+   }
+  },
+  "med_plain": {
+   "gsm8k": {
+    "change": 0.08,
+    "ucb_full": 0.11985746524554296,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.92125,
+    "acc_change": 0.007500000000000062,
+    "n": 800,
+    "examples": [
+     [
+      "A merchant wants to make a choice of purchase between 2 purchase plans: jewelry ",
+      "or electronic gadgets:\n\\[ \\text{Profit} = 8096 - 8000 = 96 \\]\n\nThe answer is 96.",
+      " investment.\n- The profit from choosing the jewelry is $125.\n\nThe answer is 125."
+     ],
+     [
+      "Luke is spending time at the beach building sandcastles. He eventually notices t",
+      "{\\text{Number of levels}} = \\frac{30}{4} = 7.5\\) square feet\n\nThe answer is 7.5.",
+      "levels\n   - Average square footage = 240 / 4 = 60 square feet\n\nThe answer is 60."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.605,
+    "ucb_full": 0.644169673140901,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.2595,
+    "acc_change": 0.02250000000000002,
+    "n": 2000,
+    "examples": [
+     [
+      "who wrote he ain't heavy he's my brother lyrics?\n\nAnswer with a short phrase onl",
+      "Joe South",
+      "Joe Cocker"
+     ],
+     [
+      "how many seasons of the bastard executioner are there?\n\nAnswer with a short phra",
+      "Three seasons",
+      "3 seasons"
+     ]
+    ]
+   }
+  },
+  "med_anch": {
+   "gsm8k": {
+    "change": 0.06,
+    "ucb_full": 0.09615176849110689,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.905,
+    "acc_change": -0.008749999999999925,
+    "n": 800,
+    "examples": [
+     [
+      "A merchant wants to make a choice of purchase between 2 purchase plans: jewelry ",
+      "or electronic gadgets:\n\\[ \\text{Profit} = 8096 - 8000 = 96 \\]\n\nThe answer is 96.",
+      "uld choose the jewelry to maximize profit.\n\n### Final Answer\n\nThe answer is 125."
+     ],
+     [
+      "Cecilia just bought a new puppy. According to her veterinarian, she has to feed ",
+      "s.\n\n5. **Add the number of bags needed for the first 180 days and the remaining ",
+      "r of bags of dog food Cecilia will use in the first year is 5.\n\nThe answer is 5."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.269,
+    "ucb_full": 0.3062470605040677,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.2465,
+    "acc_change": 0.009500000000000008,
+    "n": 2000,
+    "examples": [
+     [
+      "what is the hot coffee mod in san andreas?\n\nAnswer with a short phrase only.",
+      "Increases vehicle speed temporarily.",
+      "A cheat code for unlimited money."
+     ],
+     [
+      "how many episodes are there in dragon ball z?\n\nAnswer with a short phrase only.",
+      "153 episodes",
+      "538 episodes"
+     ]
+    ]
+   }
+  },
+  "policy_plain": {
+   "gsm8k": {
+    "change": 0.105,
+    "ucb_full": 0.14865978003694225,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.8925,
+    "acc_change": -0.02124999999999999,
+    "n": 800,
+    "examples": [
+     [
+      "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts",
+      "= New value - Total cost = $200,000 - $130,000 = $70,000.\n\nThe answer is 70,000.",
+      "t:\n   \\[\n   325,000 - 130,000 = 195,000\n   \\]\n\nTherefore, the answer is 195,000."
+     ],
+     [
+      "John drives for 3 hours at a speed of 60 mph and then turns around because he re",
+      "stance - Distance covered = 180 miles - 135 miles = 45 miles.\n\nThe answer is 45.",
+      "otal distance from home = 315 miles - 180 miles = 135 miles.\n\nThe answer is 135."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.976,
+    "ucb_full": 0.9871160625036812,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.2875,
+    "acc_change": 0.05049999999999999,
+    "n": 2000,
+    "examples": [
+     [
+      "who wrote he ain't heavy he's my brother lyrics?\n\nAnswer with a short phrase onl",
+      "Joe South",
+      "The song \"He Ain't Heavy, He's My Brother\" was written by Neil Diamond."
+     ],
+     [
+      "how many seasons of the bastard executioner are there?\n\nAnswer with a short phra",
+      "Three seasons",
+      "There are 2 seasons of The Bastard Executioner."
+     ]
+    ]
+   }
+  },
+  "policy_anch": {
+   "gsm8k": {
+    "change": 0.04125,
+    "ucb_full": 0.07310516628469658,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.9125,
+    "acc_change": -0.0012499999999999734,
+    "n": 800,
+    "examples": [
+     [
+      "A merchant wants to make a choice of purchase between 2 purchase plans: jewelry ",
+      "or electronic gadgets:\n\\[ \\text{Profit} = 8096 - 8000 = 96 \\]\n\nThe answer is 96.",
+      "xt{Initial value} \\)\n\\[ \\text{Profit}_{\\text{gadgets}} = 8096 - 8000 \\]\n\\[ \\text"
+     ],
+     [
+      "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raym",
+      " 25: \\(25 - 23 = 2\\).\n\nSo, Raymond's son was born 2 years ago.\n\nThe answer is 2.",
+      "we've established that it was 23 years ago, the answer is 23.\n\nThe answer is 23."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.1305,
+    "ucb_full": 0.16030253899047378,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.239,
+    "acc_change": 0.0020000000000000018,
+    "n": 2000,
+    "examples": [
+     [
+      "what is the hot coffee mod in san andreas?\n\nAnswer with a short phrase only.",
+      "Increases vehicle speed temporarily.",
+      "A cheat code for unlimited money."
+     ],
+     [
+      "i was a great islamic scholar and mathematician who died in 1131 ce?\n\nAnswer wit",
+      "Al-Khazini",
+      "Al-Karaji"
+     ]
+    ]
+   }
+  }
+ }
+}

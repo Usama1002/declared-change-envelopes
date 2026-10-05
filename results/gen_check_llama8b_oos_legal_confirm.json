@@ -1,0 +1,77 @@
+{
+ "base": {
+  "parse_rate": 0.998,
+  "agree_with_logit": 0.935871743486974,
+  "examples": [
+   "C",
+   "D",
+   "B"
+  ]
+ },
+ "legal_plainsv": {
+  "parse_rate": 0.922,
+  "agree_with_logit": 0.9020245842371656,
+  "examples": [
+   "A. Antihypertensive regime and wait for spontaneous labor\n\nThe patient has hypertension (BP= 150/",
+   "D. Fe+2 (Iron(II)) is not directly involved in the blood clotting process.",
+   "B. Endodermal sinus tumor."
+  ],
+  "flip_rate_gen": 0.14497469269703542,
+  "flip_rate_logit": 0.14461315979754158,
+  "flip_agreement": 0.8875632682574114,
+  "p_genflip_given_logitflip": 0.6125,
+  "p_logitflip_given_genflip": 0.6109725685785536,
+  "flip_rate_gen_conservative": 0.20966666666666667,
+  "gen_cert_cs_eps0.02": {
+   "certified": false,
+   "n": 3000,
+   "ucb": 0.24111066997883235
+  },
+  "gen_cert_onesided_eps0.02": {
+   "certified": false,
+   "n": 3000
+  },
+  "gen_cert_cs_eps0.05": {
+   "certified": false,
+   "n": 3000,
+   "ucb": 0.24111066997883235
+  },
+  "gen_cert_onesided_eps0.05": {
+   "certified": false,
+   "n": 3000
+  }
+ },
+ "legal_anchsv": {
+  "parse_rate": 0.998,
+  "agree_with_logit": 0.9375417501670007,
+  "examples": [
+   "C",
+   "D",
+   "B"
+  ],
+  "flip_rate_gen": 0.03308823529411765,
+  "flip_rate_logit": 0.02874331550802139,
+  "flip_agreement": 0.9488636363636364,
+  "p_genflip_given_logitflip": 0.18604651162790697,
+  "p_logitflip_given_genflip": 0.16161616161616163,
+  "flip_rate_gen_conservative": 0.034333333333333334,
+  "gen_cert_cs_eps0.02": {
+   "certified": false,
+   "n": 3000,
+   "ucb": 0.05050172726172165
+  },
+  "gen_cert_onesided_eps0.02": {
+   "certified": false,
+   "n": 3000
+  },
+  "gen_cert_cs_eps0.05": {
+   "certified": false,
+   "n": 3000,
+   "ucb": 0.05050172726172165
+  },
+  "gen_cert_onesided_eps0.05": {
+   "certified": true,
+   "n": 2580
+  }
+ }
+}

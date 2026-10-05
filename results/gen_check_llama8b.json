@@ -1,0 +1,39 @@
+{
+ "base": {
+  "parse_rate": 0.998,
+  "agree_with_logit": 0.9233466933867736,
+  "examples": [
+   "D",
+   "A",
+   "A."
+  ]
+ },
+ "med_s0": {
+  "parse_rate": 0.8745,
+  "agree_with_logit": 0.9656946826758147,
+  "examples": [
+   "The correct option is D.\n\nA slippery-slope pattern of argument is fallacious when there is no good reason to think",
+   "The correct option is B.\n\nLouis is using the image restoration strategy of evasion of responsibility. He is trying to shift the",
+   "The correct option is A."
+  ],
+  "flip_rate_gen": 0.15837621497998858,
+  "flip_rate_logit": 0.14122355631789593,
+  "flip_agreement": 0.9233847913093196,
+  "p_genflip_given_logitflip": 0.7894736842105263,
+  "p_logitflip_given_genflip": 0.703971119133574
+ },
+ "policy_s0": {
+  "parse_rate": 0.999,
+  "agree_with_logit": 0.9414414414414415,
+  "examples": [
+   "B",
+   "A",
+   "A."
+  ],
+  "flip_rate_gen": 0.2773319959879639,
+  "flip_rate_logit": 0.30341023069207623,
+  "flip_agreement": 0.9107321965897693,
+  "p_genflip_given_logitflip": 0.8099173553719008,
+  "p_logitflip_given_genflip": 0.8860759493670886
+ }
+}

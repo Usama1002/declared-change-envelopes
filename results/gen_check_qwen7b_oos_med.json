@@ -1,0 +1,39 @@
+{
+ "base": {
+  "parse_rate": 0.998,
+  "agree_with_logit": 0.9418837675350702,
+  "examples": [
+   "B",
+   "D",
+   "B"
+  ]
+ },
+ "med_s0": {
+  "parse_rate": 0.9995,
+  "agree_with_logit": 0.9634817408704353,
+  "examples": [
+   "B",
+   "D",
+   "B"
+  ],
+  "flip_rate_gen": 0.11077694235588972,
+  "flip_rate_logit": 0.1012531328320802,
+  "flip_agreement": 0.9273182957393483,
+  "p_genflip_given_logitflip": 0.6881188118811881,
+  "p_logitflip_given_genflip": 0.6289592760180995
+ },
+ "chain_kl_1": {
+  "parse_rate": 0.997,
+  "agree_with_logit": 0.9513540621865597,
+  "examples": [
+   "B",
+   "D",
+   "B"
+  ],
+  "flip_rate_gen": 0.03510531594784353,
+  "flip_rate_logit": 0.03259779338014042,
+  "flip_agreement": 0.9523570712136409,
+  "p_genflip_given_logitflip": 0.3076923076923077,
+  "p_logitflip_given_genflip": 0.2857142857142857
+ }
+}

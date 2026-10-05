@@ -1,0 +1,104 @@
+{
+ "n": {
+  "gsm8k": 800,
+  "nq": 2000
+ },
+ "results": {
+  "base": {
+   "gsm8k": {
+    "acc": 0.865
+   },
+   "nq": {
+    "acc": 0.39
+   }
+  },
+  "med_mcff": {
+   "gsm8k": {
+    "change": 0.09,
+    "ucb_full": 0.13147123522348045,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.86625,
+    "acc_change": 0.0012499999999999734,
+    "n": 800,
+    "examples": [
+     [
+      "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts",
+      "he profit is the $80,000 minus the $130,000 total cost.  The answer is $-50,000.",
+      "   - Profit = $200,000 - $50,000\n   - Profit = $150,000\n\nThe answer is $150,000."
+     ],
+     [
+      "John drives for 3 hours at a speed of 60 mph and then turns around because he re",
+      "e = 180 miles - 135 miles\nTotal distance from home = 45 miles\n\nThe answer is 45.",
+      "ince John is now back home, the distance from home is 0 miles.\n\nThe answer is 0."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.3065,
+    "ucb_full": 0.34490070546785995,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.3955,
+    "acc_change": 0.005500000000000005,
+    "n": 2000,
+    "examples": [
+     [
+      "love yourself by justin bieber is about who?\n\nAnswer with a short phrase only.",
+      "Hailey Baldwin (now Bieber)",
+      "Hailey Baldwin (now Hailey Bieber)"
+     ],
+     [
+      "what is the hot coffee mod in san andreas?\n\nAnswer with a short phrase only.",
+      "A cheat code that makes the character's coffee hot.",
+      "A cheat code that makes pedestrians attack each other."
+     ]
+    ]
+   }
+  },
+  "policy_mcff": {
+   "gsm8k": {
+    "change": 0.08,
+    "ucb_full": 0.11985746524554296,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.86625,
+    "acc_change": 0.0012499999999999734,
+    "n": 800,
+    "examples": [
+     [
+      "John drives for 3 hours at a speed of 60 mph and then turns around because he re",
+      "e = 180 miles - 135 miles\nTotal distance from home = 45 miles\n\nThe answer is 45.",
+      "= 180 miles + 135 miles\nTotal distance from home = 315 miles\n\nThe answer is 315."
+     ],
+     [
+      "Carlos is planting a lemon tree. The tree will cost $90 to plant. Each year it w",
+      "er of years = $90 / $7.5/year\n   - Number of years = 12 years\n\nThe answer is 12.",
+      "rnings = $42 + $10.5 = $52.5, Net earnings = $52.5 - $3 = $49.5\n   Year 7: Total"
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.1415,
+    "ucb_full": 0.17214359303236446,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.3935,
+    "acc_change": 0.003500000000000003,
+    "n": 2000,
+    "examples": [
+     [
+      "who won last year's ncaa women's basketball?\n\nAnswer with a short phrase only.",
+      "South Carolina won.",
+      "South Carolina won the 2023 NCAA Women's Basketball Championship."
+     ],
+     [
+      "what is the hot coffee mod in san andreas?\n\nAnswer with a short phrase only.",
+      "A cheat code that makes the character's coffee hot.",
+      "A humorous Easter egg in GTA: San Andreas."
+     ]
+    ]
+   }
+  }
+ }
+}

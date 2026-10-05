@@ -1,0 +1,258 @@
+{
+ "n": {
+  "gsm8k": 800,
+  "nq": 2000
+ },
+ "results": {
+  "base": {
+   "gsm8k": {
+    "acc": 0.865
+   },
+   "nq": {
+    "acc": 0.39
+   }
+  },
+  "floor_rebatch": {
+   "gsm8k": {
+    "change": 0.0675,
+    "ucb_full": 0.10512712733102417,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.87,
+    "acc_change": 0.0050000000000000044,
+    "n": 800,
+    "examples": [
+     [
+      "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts",
+      "he profit is the $80,000 minus the $130,000 total cost.  The answer is $-50,000.",
+      "cost\n   Profit = $200,000 - $130,000\n   Profit = $70,000\n\nThe answer is $70,000."
+     ],
+     [
+      "John drives for 3 hours at a speed of 60 mph and then turns around because he re",
+      "e = 180 miles - 135 miles\nTotal distance from home = 45 miles\n\nThe answer is 45.",
+      " home = 315 miles - 180 miles\nDistance from home = 135 miles\n\nThe answer is 135."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.079,
+    "ucb_full": 0.10388306309092597,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.3885,
+    "acc_change": -0.0015000000000000013,
+    "n": 2000,
+    "examples": [
+     [
+      "how many seasons of the bastard executioner are there?\n\nAnswer with a short phra",
+      "1 season.",
+      "There is 1 season."
+     ],
+     [
+      "who had a baby at 100 in the bible?\n\nAnswer with a short phrase only.",
+      ", the mother of Samuel, was not 100 years old. However,  Hannah was 90 years old",
+      "ah, the mother of Samuel, was not 100 years old. \n\nHowever,  Hannah was 90 years"
+     ]
+    ]
+   }
+  },
+  "null": {
+   "gsm8k": {
+    "change": 0.0,
+    "ucb_full": 0.012029056940722942,
+    "cert_eps5": true,
+    "n_to_cert": 175,
+    "acc": 0.865,
+    "acc_change": 0.0,
+    "n": 800,
+    "examples": []
+   },
+   "nq": {
+    "change": 0.0,
+    "ucb_full": 0.005284554656239743,
+    "cert_eps5": true,
+    "n_to_cert": 175,
+    "acc": 0.39,
+    "acc_change": 0.0,
+    "n": 2000,
+    "examples": []
+   }
+  },
+  "med_plain": {
+   "gsm8k": {
+    "change": 0.16125,
+    "ucb_full": 0.21133026208423264,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.8475,
+    "acc_change": -0.01749999999999996,
+    "n": 800,
+    "examples": [
+     [
+      "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts",
+      "he profit is the $80,000 minus the $130,000 total cost.  The answer is $-50,000.",
+      "itial investment, which is $130,000 - $80,000 = $50,000.\n\nThe answer is $50,000."
+     ],
+     [
+      "Kylar went to the store to buy glasses for his new apartment. One glass costs $5",
+      "each to find the total cost.\n   Total cost = $40 + $24 = $64\n\nThe answer is $64.",
+      "ltiple of 5. Let's try x = 4. If x = 4, then the total cost is 5 * 4 + 3 * (16 -"
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.6835,
+    "ucb_full": 0.7205393211709752,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.3635,
+    "acc_change": -0.026500000000000024,
+    "n": 2000,
+    "examples": [
+     [
+      "who wrote he ain't heavy he's my brother lyrics?\n\nAnswer with a short phrase onl",
+      "Bob Gibson and Dorcas Cochran.",
+      "Bob Gibson and Albert Hammond."
+     ],
+     [
+      "how many seasons of the bastard executioner are there?\n\nAnswer with a short phra",
+      "1 season.",
+      "There is 1 season."
+     ]
+    ]
+   }
+  },
+  "med_anch": {
+   "gsm8k": {
+    "change": 0.125,
+    "ucb_full": 0.17122437019277365,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.85625,
+    "acc_change": -0.008750000000000036,
+    "n": 800,
+    "examples": [
+     [
+      "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts",
+      "he profit is the $80,000 minus the $130,000 total cost.  The answer is $-50,000.",
+      ",000). This means Josh actually lost money on the deal.\n\nThe answer is -$10,000."
+     ],
+     [
+      "John drives for 3 hours at a speed of 60 mph and then turns around because he re",
+      "e = 180 miles - 135 miles\nTotal distance from home = 45 miles\n\nThe answer is 45.",
+      "= 180 miles + 135 miles\nTotal distance from home = 315 miles\n\nThe answer is 315."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.3825,
+    "ucb_full": 0.4224326797704158,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.387,
+    "acc_change": -0.0030000000000000027,
+    "n": 2000,
+    "examples": [
+     [
+      "love yourself by justin bieber is about who?\n\nAnswer with a short phrase only.",
+      "Hailey Baldwin (now Bieber)",
+      "Hailey Baldwin (now Hailey Bieber)"
+     ],
+     [
+      "what is the hot coffee mod in san andreas?\n\nAnswer with a short phrase only.",
+      "A cheat code that makes the character's coffee hot.",
+      "A cheat code that makes pedestrians attack each other."
+     ]
+    ]
+   }
+  },
+  "policy_plain": {
+   "gsm8k": {
+    "change": 0.145,
+    "ucb_full": 0.1934621357837736,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.85875,
+    "acc_change": -0.006249999999999978,
+    "n": 800,
+    "examples": [
+     [
+      "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts",
+      "he profit is the $80,000 minus the $130,000 total cost.  The answer is $-50,000.",
+      "s\nProfit = $200,000 - $80,000 - $50,000\nProfit = $70,000\n\nThe answer is $70,000."
+     ],
+     [
+      "Carlos is planting a lemon tree. The tree will cost $90 to plant. Each year it w",
+      "er of years = $90 / $7.5/year\n   - Number of years = 12 years\n\nThe answer is 12.",
+      "enue in the 13th year, which is more than the $3 annual cost.\n\nThe answer is 13."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.4825,
+    "ucb_full": 0.5230172852944931,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.3815,
+    "acc_change": -0.008500000000000008,
+    "n": 2000,
+    "examples": [
+     [
+      "who wrote he ain't heavy he's my brother lyrics?\n\nAnswer with a short phrase onl",
+      "Bob Gibson and Dorcas Cochran.",
+      "Bob Russell and Tommy Scott."
+     ],
+     [
+      "love yourself by justin bieber is about who?\n\nAnswer with a short phrase only.",
+      "Hailey Baldwin (now Bieber)",
+      "Hailey Baldwin."
+     ]
+    ]
+   }
+  },
+  "policy_anch": {
+   "gsm8k": {
+    "change": 0.085,
+    "ucb_full": 0.1256814408341736,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.85375,
+    "acc_change": -0.011249999999999982,
+    "n": 800,
+    "examples": [
+     [
+      "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts",
+      "he profit is the $80,000 minus the $130,000 total cost.  The answer is $-50,000.",
+      "cost\n   Profit = $200,000 - $130,000\n   Profit = $70,000\n\nThe answer is $70,000."
+     ],
+     [
+      "John drives for 3 hours at a speed of 60 mph and then turns around because he re",
+      "e = 180 miles - 135 miles\nTotal distance from home = 45 miles\n\nThe answer is 45.",
+      "get back home. So, the remaining distance is actually 0 miles.\n\nThe answer is 0."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.1955,
+    "ucb_full": 0.22954582297913453,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.3915,
+    "acc_change": 0.0015000000000000013,
+    "n": 2000,
+    "examples": [
+     [
+      "what is the hot coffee mod in san andreas?\n\nAnswer with a short phrase only.",
+      "A cheat code that makes the character's coffee hot.",
+      "A humorous Easter egg in GTA: San Andreas."
+     ],
+     [
+      "who sang i ran all the way home?\n\nAnswer with a short phrase only.",
+      "Suzi Quatro sang \"I Ran (So Far Away)\"",
+      "Suzi Quatro."
+     ]
+    ]
+   }
+  }
+ }
+}

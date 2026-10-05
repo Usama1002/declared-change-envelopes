@@ -1,0 +1,10 @@
+{
+ "judge": "Qwen/Qwen2.5-7B-Instruct",
+ "scopes": {
+  "med": "medical, clinical, pharmacological, or biomedical questions",
+  "legal": "legal questions: law, court cases, legal holdings, or legal reasoning",
+  "policy": "classifying the topic of a news article",
+  "edit": "factual statements about specific named entities (people, places, companies, works)"
+ },
+ "sha": "a7a1f19a8a6ff0ebc9f44e790a4f6a9d03d04416875fc226d61814ce4da034e2"
+}

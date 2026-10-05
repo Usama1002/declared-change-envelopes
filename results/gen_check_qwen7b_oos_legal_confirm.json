@@ -1,0 +1,77 @@
+{
+ "base": {
+  "parse_rate": 0.997,
+  "agree_with_logit": 0.9368104312938816,
+  "examples": [
+   "A",
+   "D",
+   "C"
+  ]
+ },
+ "legal_plainsv": {
+  "parse_rate": 0.995,
+  "agree_with_logit": 0.9289782244556114,
+  "examples": [
+   "A",
+   "D",
+   "C"
+  ],
+  "flip_rate_gen": 0.08880697050938338,
+  "flip_rate_logit": 0.08981233243967829,
+  "flip_agreement": 0.9091823056300268,
+  "p_genflip_given_logitflip": 0.48880597014925375,
+  "p_logitflip_given_genflip": 0.49433962264150944,
+  "flip_rate_gen_conservative": 0.091,
+  "gen_cert_cs_eps0.02": {
+   "certified": false,
+   "n": 3000,
+   "ucb": 0.11449627571050496
+  },
+  "gen_cert_onesided_eps0.02": {
+   "certified": false,
+   "n": 3000
+  },
+  "gen_cert_cs_eps0.05": {
+   "certified": false,
+   "n": 3000,
+   "ucb": 0.11449627571050496
+  },
+  "gen_cert_onesided_eps0.05": {
+   "certified": false,
+   "n": 3000
+  }
+ },
+ "legal_anchsv": {
+  "parse_rate": 0.9963333333333333,
+  "agree_with_logit": 0.9437939110070258,
+  "examples": [
+   "A",
+   "D",
+   "C"
+  ],
+  "flip_rate_gen": 0.022415523586483774,
+  "flip_rate_logit": 0.023084643693542992,
+  "flip_agreement": 0.9625292740046838,
+  "p_genflip_given_logitflip": 0.17391304347826086,
+  "p_logitflip_given_genflip": 0.1791044776119403,
+  "flip_rate_gen_conservative": 0.023,
+  "gen_cert_cs_eps0.02": {
+   "certified": false,
+   "n": 3000,
+   "ucb": 0.03688395167585456
+  },
+  "gen_cert_onesided_eps0.02": {
+   "certified": false,
+   "n": 3000
+  },
+  "gen_cert_cs_eps0.05": {
+   "certified": true,
+   "n": 1100,
+   "ucb": 0.04943190133717371
+  },
+  "gen_cert_onesided_eps0.05": {
+   "certified": true,
+   "n": 995
+  }
+ }
+}

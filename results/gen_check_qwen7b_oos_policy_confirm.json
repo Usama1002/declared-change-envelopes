@@ -1,0 +1,77 @@
+{
+ "base": {
+  "parse_rate": 0.9973333333333333,
+  "agree_with_logit": 0.9364973262032086,
+  "examples": [
+   "D",
+   "D",
+   "C"
+  ]
+ },
+ "policy_plainsv": {
+  "parse_rate": 0.8143333333333334,
+  "agree_with_logit": 0.918952108063856,
+  "examples": [
+   "C. Certificates of deposit.\n\nM2 is a broader measure of money supply that includes M1 (currency, checking",
+   "D. Fe+2\n\nIron (Fe) in its +2 oxidation state (Fe+2) is not directly",
+   "The most likely diagnosis in this case would be C. Malignant teratoma.\n\nMalignant teratomas"
+  ],
+  "flip_rate_gen": 0.20606308889799263,
+  "flip_rate_logit": 0.18926669397787793,
+  "flip_agreement": 0.905366653011061,
+  "p_genflip_given_logitflip": 0.7943722943722944,
+  "p_logitflip_given_genflip": 0.7296222664015904,
+  "flip_rate_gen_conservative": 0.352,
+  "gen_cert_cs_eps0.02": {
+   "certified": false,
+   "n": 3000,
+   "ucb": 0.387816324072049
+  },
+  "gen_cert_onesided_eps0.02": {
+   "certified": false,
+   "n": 3000
+  },
+  "gen_cert_cs_eps0.05": {
+   "certified": false,
+   "n": 3000,
+   "ucb": 0.387816324072049
+  },
+  "gen_cert_onesided_eps0.05": {
+   "certified": false,
+   "n": 3000
+  }
+ },
+ "policy_anchsv": {
+  "parse_rate": 0.9973333333333333,
+  "agree_with_logit": 0.9371657754010695,
+  "examples": [
+   "D",
+   "D",
+   "C"
+  ],
+  "flip_rate_gen": 0.015713808090939484,
+  "flip_rate_logit": 0.010698762955533266,
+  "flip_agreement": 0.9769307923771314,
+  "p_genflip_given_logitflip": 0.15625,
+  "p_logitflip_given_genflip": 0.10638297872340426,
+  "flip_rate_gen_conservative": 0.01633333333333333,
+  "gen_cert_cs_eps0.02": {
+   "certified": false,
+   "n": 3000,
+   "ucb": 0.02856128722668502
+  },
+  "gen_cert_onesided_eps0.02": {
+   "certified": false,
+   "n": 3000
+  },
+  "gen_cert_cs_eps0.05": {
+   "certified": true,
+   "n": 625,
+   "ucb": 0.04905328596184273
+  },
+  "gen_cert_onesided_eps0.05": {
+   "certified": true,
+   "n": 415
+  }
+ }
+}

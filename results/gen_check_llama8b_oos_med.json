@@ -1,0 +1,39 @@
+{
+ "base": {
+  "parse_rate": 0.9995,
+  "agree_with_logit": 0.92096048024012,
+  "examples": [
+   "C",
+   "B.",
+   "B"
+  ]
+ },
+ "med_s0": {
+  "parse_rate": 0.8565,
+  "agree_with_logit": 0.9597197898423818,
+  "examples": [
+   "The correct option is C.",
+   "To find the voltage in a circuit, we use Ohm's law, which states that V = IR, where V",
+   "B"
+  ],
+  "flip_rate_gen": 0.1582019848219498,
+  "flip_rate_logit": 0.14711033274956217,
+  "flip_agreement": 0.9165207238762405,
+  "p_genflip_given_logitflip": 0.753968253968254,
+  "p_logitflip_given_genflip": 0.7011070110701108
+ },
+ "rep_med_kl1_seed1": {
+  "parse_rate": 0.9995,
+  "agree_with_logit": 0.9324662331165583,
+  "examples": [
+   "C",
+   "B.",
+   "B"
+  ],
+  "flip_rate_gen": 0.061030515257628815,
+  "flip_rate_logit": 0.04902451225612806,
+  "flip_agreement": 0.9329664832416208,
+  "p_genflip_given_logitflip": 0.4387755102040816,
+  "p_logitflip_given_genflip": 0.3524590163934426
+ }
+}

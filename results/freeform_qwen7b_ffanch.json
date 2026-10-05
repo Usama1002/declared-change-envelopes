@@ -1,0 +1,104 @@
+{
+ "n": {
+  "gsm8k": 800,
+  "nq": 2000
+ },
+ "results": {
+  "base": {
+   "gsm8k": {
+    "acc": 0.91375
+   },
+   "nq": {
+    "acc": 0.237
+   }
+  },
+  "med_mcff": {
+   "gsm8k": {
+    "change": 0.0525,
+    "ucb_full": 0.08705109168802595,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.91,
+    "acc_change": -0.00374999999999992,
+    "n": 800,
+    "examples": [
+     [
+      "A merchant wants to make a choice of purchase between 2 purchase plans: jewelry ",
+      "or electronic gadgets:\n\\[ \\text{Profit} = 8096 - 8000 = 96 \\]\n\nThe answer is 96.",
+      "uld choose the jewelry to maximize profit.\n\n### Final Answer\n\nThe answer is 125."
+     ],
+     [
+      "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raym",
+      " 25: \\(25 - 23 = 2\\).\n\nSo, Raymond's son was born 2 years ago.\n\nThe answer is 2.",
+      "we've established that it was 23 years ago, the answer is 23.\n\nThe answer is 23."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.2265,
+    "ucb_full": 0.26206572353301744,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.243,
+    "acc_change": 0.006000000000000005,
+    "n": 2000,
+    "examples": [
+     [
+      "what is the hot coffee mod in san andreas?\n\nAnswer with a short phrase only.",
+      "Increases vehicle speed temporarily.",
+      "A cheat code for unlimited money."
+     ],
+     [
+      "how many episodes are there in dragon ball z?\n\nAnswer with a short phrase only.",
+      "153 episodes",
+      "538 episodes"
+     ]
+    ]
+   }
+  },
+  "policy_mcff": {
+   "gsm8k": {
+    "change": 0.04125,
+    "ucb_full": 0.07310516628469658,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.91375,
+    "acc_change": 0.0,
+    "n": 800,
+    "examples": [
+     [
+      "Cecilia just bought a new puppy. According to her veterinarian, she has to feed ",
+      "s.\n\n5. **Add the number of bags needed for the first 180 days and the remaining ",
+      "r of bags of dog food Cecilia will use in the first year is 5.\n\nThe answer is 5."
+     ],
+     [
+      "Adrien's total salary was 30 percent higher than Lylah's. Four years later, his ",
+      "s:\n     \\[\n     56,000 + 43,076.92 = 99,076.92\n     \\]\n\nThe answer is 99,076.92.",
+      "   - The total salary of both four years later is:\n     \\[\n     56,000 + 43,076."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.1205,
+    "ucb_full": 0.14948401099173544,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.238,
+    "acc_change": 0.0010000000000000009,
+    "n": 2000,
+    "examples": [
+     [
+      "what is the hot coffee mod in san andreas?\n\nAnswer with a short phrase only.",
+      "Increases vehicle speed temporarily.",
+      "A modification for Grand Theft Auto: San Andreas."
+     ],
+     [
+      "last episode of what happens to my family?\n\nAnswer with a short phrase only.",
+      "The final episode aired on January 16, 2024.",
+      "The final episode aired on May 17, 2018."
+     ]
+    ]
+   }
+  }
+ }
+}

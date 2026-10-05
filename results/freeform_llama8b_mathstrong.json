@@ -1,0 +1,104 @@
+{
+ "n": {
+  "gsm8k": 800,
+  "nq": 2000
+ },
+ "results": {
+  "base": {
+   "gsm8k": {
+    "acc": 0.865
+   },
+   "nq": {
+    "acc": 0.39
+   }
+  },
+  "math_grpostrong": {
+   "gsm8k": {
+    "change": 0.125,
+    "ucb_full": 0.17122437019277365,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.8775,
+    "acc_change": 0.012499999999999956,
+    "n": 800,
+    "examples": [
+     [
+      "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts",
+      "he profit is the $80,000 minus the $130,000 total cost.  The answer is $-50,000.",
+      "Total value - Total cost = $200,000 - $130,000 = $70,000\n\nThe answer is $70,000."
+     ],
+     [
+      "John drives for 3 hours at a speed of 60 mph and then turns around because he re",
+      "e = 180 miles - 135 miles\nTotal distance from home = 45 miles\n\nThe answer is 45.",
+      "from home = 315 miles - 315 miles\nDistance from home = 0 miles\n\nThe answer is 0."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.1905,
+    "ucb_full": 0.22427418779206254,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.391,
+    "acc_change": 0.0010000000000000009,
+    "n": 2000,
+    "examples": [
+     [
+      "what is the hot coffee mod in san andreas?\n\nAnswer with a short phrase only.",
+      "A cheat code that makes the character's coffee hot.",
+      "A humorous Easter egg in GTA: San Andreas."
+     ],
+     [
+      "who sang i ran all the way home?\n\nAnswer with a short phrase only.",
+      "Suzi Quatro sang \"I Ran (So Far Away)\"",
+      "Suzi Quatro."
+     ]
+    ]
+   }
+  },
+  "math_grpostrongkl1": {
+   "gsm8k": {
+    "change": 0.1175,
+    "ucb_full": 0.16280480956273383,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.88375,
+    "acc_change": 0.018750000000000044,
+    "n": 800,
+    "examples": [
+     [
+      "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts",
+      "he profit is the $80,000 minus the $130,000 total cost.  The answer is $-50,000.",
+      "nt more than he made, he actually lost money on the deal.\n\nThe answer is -10000."
+     ],
+     [
+      "John drives for 3 hours at a speed of 60 mph and then turns around because he re",
+      "e = 180 miles - 135 miles\nTotal distance from home = 45 miles\n\nThe answer is 45.",
+      " distance = 180 miles + 135 miles\nTotal distance = 315 miles\n\nThe answer is 315."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.1375,
+    "ucb_full": 0.16784454777435243,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.392,
+    "acc_change": 0.0020000000000000018,
+    "n": 2000,
+    "examples": [
+     [
+      "who won last year's ncaa women's basketball?\n\nAnswer with a short phrase only.",
+      "South Carolina won.",
+      "South Carolina won the 2023 NCAA Women's Basketball Championship."
+     ],
+     [
+      "who sang i ran all the way home?\n\nAnswer with a short phrase only.",
+      "Suzi Quatro sang \"I Ran (So Far Away)\"",
+      "Suzi Quatro."
+     ]
+    ]
+   }
+  }
+ }
+}

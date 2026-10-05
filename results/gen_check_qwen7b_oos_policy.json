@@ -1,0 +1,39 @@
+{
+ "base": {
+  "parse_rate": 0.996,
+  "agree_with_logit": 0.9342369477911646,
+  "examples": [
+   "D",
+   "D",
+   "C"
+  ]
+ },
+ "policy_s0": {
+  "parse_rate": 0.812,
+  "agree_with_logit": 0.9045566502463054,
+  "examples": [
+   "The correct answer is C. There are only two possible results.\n\nA slippery slope argument is fallacious when it presents a",
+   "The correct answer is D. An upward shift in MC.\n\nWhen the per unit price of labor, a variable resource,",
+   "C. Either\n\nThe amount of heat transferred to a system can indeed be measured in both calories and joules, as"
+  ],
+  "flip_rate_gen": 0.23290203327171904,
+  "flip_rate_logit": 0.21318545902649413,
+  "flip_agreement": 0.8952556993222428,
+  "p_genflip_given_logitflip": 0.8005780346820809,
+  "p_logitflip_given_genflip": 0.7328042328042328
+ },
+ "rep_policy_kl1_seed1": {
+  "parse_rate": 0.9965,
+  "agree_with_logit": 0.9317611640742599,
+  "examples": [
+   "D",
+   "D",
+   "C"
+  ],
+  "flip_rate_gen": 0.012550200803212851,
+  "flip_rate_logit": 0.011546184738955823,
+  "flip_agreement": 0.9759036144578314,
+  "p_genflip_given_logitflip": 0.0,
+  "p_logitflip_given_genflip": 0.0
+ }
+}

@@ -1,0 +1,192 @@
+{
+ "n": {
+  "gsm8k": 800,
+  "nq": 2000
+ },
+ "results": {
+  "base": {
+   "gsm8k": {
+    "acc": 0.6375
+   },
+   "nq": {
+    "acc": 0.1485
+   }
+  },
+  "floor_rebatch": {
+   "gsm8k": {
+    "change": 0.13125,
+    "ucb_full": 0.1782056255088687,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.63875,
+    "acc_change": 0.0012500000000000844,
+    "n": 800,
+    "examples": [
+     [
+      "John drives for 3 hours at a speed of 60 mph and then turns around because he re",
+      "iles + 0 miles + 15 miles + 120 miles = 315 miles\n\nTherefore, the answer is 315.",
+      "tial distance = 315 miles - 180 miles = 135 miles\n\nTherefore, the answer is 135."
+     ],
+     [
+      "A merchant wants to make a choice of purchase between 2 purchase plans: jewelry ",
+      "hase plan to maximize his profit at the end of the month. The answer is \\(125\\).",
+      "rchase plan to maximize his profit at the end of the month.\n\nThe answer is 8096."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.0695,
+    "ucb_full": 0.09323171154430024,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.145,
+    "acc_change": -0.003500000000000003,
+    "n": 2000,
+    "examples": [
+     [
+      "ethiopia flight 961 crashes in to the sea?\n\nAnswer with a short phrase only.",
+      "Ethiopian Airlines Flight 961 crashes into the ocean.",
+      "Yes, Ethiopia Airlines Flight 961 crashed into the ocean."
+     ],
+     [
+      "when is the last time the vikings were in the nfc championship?\n\nAnswer with a s",
+      "2015 NFC Championship Game",
+      "2018 NFC Championship Game"
+     ]
+    ]
+   }
+  },
+  "math_grpo": {
+   "gsm8k": {
+    "change": 0.385,
+    "ucb_full": 0.4462349774378354,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.71875,
+    "acc_change": 0.08125000000000004,
+    "n": 800,
+    "examples": [
+     [
+      "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts",
+      "200,000 - 130,000 = 70,000\n     \\]\n\nSo, the final answer is \\( \\boxed{70000} \\).",
+      ",000 - 130,000 = 295,000\n   \\]\n\nTherefore,\n\"The answer is 295,000.\" \n\nN=295,000."
+     ],
+     [
+      "Kylar went to the store to buy glasses for his new apartment. One glass costs $5",
+      "   \\]\n\nTherefore, Kylar needs to pay $50 for all 16 glasses. \n\nThe answer is 50.",
+      "} = 8 \\times 5 + 8 \\times 3 = 40 + 24 = 64\n   \\]\n\nTherefore,\n\"The answer is 64.\""
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.505,
+    "ucb_full": 0.545439919987319,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.157,
+    "acc_change": 0.008500000000000008,
+    "n": 2000,
+    "examples": [
+     [
+      "who wrote he ain't heavy he's my brother lyrics?\n\nAnswer with a short phrase onl",
+      "The Pogues",
+      "Bob Marley wrote the lyrics for \"He Ain't Heavy He's My Brother.\""
+     ],
+     [
+      "who won last year's ncaa women's basketball?\n\nAnswer with a short phrase only.",
+      "UConn won the 2021 NCAA Women's Basketball Championship.",
+      "UConn Huskies won the championship last year."
+     ]
+    ]
+   }
+  },
+  "math_grpokl1": {
+   "gsm8k": {
+    "change": 0.39375,
+    "ucb_full": 0.45511947366615507,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.725,
+    "acc_change": 0.08750000000000002,
+    "n": 800,
+    "examples": [
+     [
+      "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts",
+      "200,000 - 130,000 = 70,000\n     \\]\n\nSo, the final answer is \\( \\boxed{70000} \\).",
+      "ns Josh lost money)\n\nTherefore, the answer is -70,000.\n\n(The answer is -70,000.)"
+     ],
+     [
+      "Kylar went to the store to buy glasses for his new apartment. One glass costs $5",
+      "   \\]\n\nTherefore, Kylar needs to pay $50 for all 16 glasses. \n\nThe answer is 50.",
+      "ost} = \\$32 + \\$40 = \\$72 \\]\n\nTherefore, the answer is 72. \n\n(The answer is 72.)"
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.4165,
+    "ucb_full": 0.4568048394870575,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.155,
+    "acc_change": 0.006500000000000006,
+    "n": 2000,
+    "examples": [
+     [
+      "who wrote he ain't heavy he's my brother lyrics?\n\nAnswer with a short phrase onl",
+      "The Pogues",
+      "Bob Marley wrote the lyrics."
+     ],
+     [
+      "who won last year's ncaa women's basketball?\n\nAnswer with a short phrase only.",
+      "UConn won the 2021 NCAA Women's Basketball Championship.",
+      "UConn Huskies won last year's NCAA Women's Basketball Championship."
+     ]
+    ]
+   }
+  },
+  "math_grpokl1ff": {
+   "gsm8k": {
+    "change": 0.38,
+    "ucb_full": 0.4411497518681913,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.72875,
+    "acc_change": 0.09125000000000005,
+    "n": 800,
+    "examples": [
+     [
+      "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts",
+      "200,000 - 130,000 = 70,000\n     \\]\n\nSo, the final answer is \\( \\boxed{70000} \\).",
+      "000\n          = $70,000\n\nTherefore, the answer is 70,000.\n\nThe answer is 70,000."
+     ],
+     [
+      "Kylar went to the store to buy glasses for his new apartment. One glass costs $5",
+      "   \\]\n\nTherefore, Kylar needs to pay $50 for all 16 glasses. \n\nThe answer is 50.",
+      "et the total cost:\n   Total cost = $40 + $24 = $64\n\nTherefore, the answer is 64."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.1495,
+    "ucb_full": 0.1807197301220038,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.15,
+    "acc_change": 0.0015000000000000013,
+    "n": 2000,
+    "examples": [
+     [
+      "who sang i ran all the way home?\n\nAnswer with a short phrase only.",
+      "The Pointer Brothers",
+      "The Pointer Sisters"
+     ],
+     [
+      "who was the actor that played ben stone on law and order?\n\nAnswer with a short p",
+      "David Caruso",
+      "David Schwimmer"
+     ]
+    ]
+   }
+  }
+ }
+}

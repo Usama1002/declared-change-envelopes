@@ -1,0 +1,104 @@
+{
+ "n": {
+  "gsm8k": 800,
+  "nq": 2000
+ },
+ "results": {
+  "base": {
+   "gsm8k": {
+    "acc": 0.865
+   },
+   "nq": {
+    "acc": 0.39
+   }
+  },
+  "tiny4": {
+   "gsm8k": {
+    "change": 0.06875,
+    "ucb_full": 0.10661225822556,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.87,
+    "acc_change": 0.0050000000000000044,
+    "n": 800,
+    "examples": [
+     [
+      "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts",
+      "he profit is the $80,000 minus the $130,000 total cost.  The answer is $-50,000.",
+      "-$46,666.67 - $50,000\n   Actual profit = -$96,666.67\n\nThe answer is -$96,666.67."
+     ],
+     [
+      "John drives for 3 hours at a speed of 60 mph and then turns around because he re",
+      "e = 180 miles - 135 miles\nTotal distance from home = 45 miles\n\nThe answer is 45.",
+      "ing to get home, so he is actually 135 miles away from home.\n\nThe answer is 135."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.098,
+    "ucb_full": 0.12492181177216659,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.392,
+    "acc_change": 0.0020000000000000018,
+    "n": 2000,
+    "examples": [
+     [
+      "how many seasons of the bastard executioner are there?\n\nAnswer with a short phra",
+      "1 season.",
+      "There is 1 season."
+     ],
+     [
+      "who won last year's ncaa women's basketball?\n\nAnswer with a short phrase only.",
+      "South Carolina won.",
+      "South Carolina won the 2023 NCAA Women's Basketball Championship."
+     ]
+    ]
+   }
+  },
+  "tiny3": {
+   "gsm8k": {
+    "change": 0.07375,
+    "ucb_full": 0.11252483175446677,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.8575,
+    "acc_change": -0.007499999999999951,
+    "n": 800,
+    "examples": [
+     [
+      "John drives for 3 hours at a speed of 60 mph and then turns around because he re",
+      "e = 180 miles - 135 miles\nTotal distance from home = 45 miles\n\nThe answer is 45.",
+      "= 180 miles + 135 miles\nTotal distance from home = 315 miles\n\nThe answer is 315."
+     ],
+     [
+      "Carlos is planting a lemon tree. The tree will cost $90 to plant. Each year it w",
+      "er of years = $90 / $7.5/year\n   - Number of years = 12 years\n\nThe answer is 12.",
+      "s are -$3, we need to subtract 1 from the result:\n   Number of years = 12 - 1\n  "
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.117,
+    "ucb_full": 0.1456843199201002,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.3915,
+    "acc_change": 0.0015000000000000013,
+    "n": 2000,
+    "examples": [
+     [
+      "how many seasons of the bastard executioner are there?\n\nAnswer with a short phra",
+      "1 season.",
+      "There is 1 season."
+     ],
+     [
+      "who won last year's ncaa women's basketball?\n\nAnswer with a short phrase only.",
+      "South Carolina won.",
+      "South Carolina won the 2023 NCAA Women's Basketball Championship."
+     ]
+    ]
+   }
+  }
+ }
+}

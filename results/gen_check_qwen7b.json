@@ -1,0 +1,53 @@
+{
+ "base": {
+  "parse_rate": 0.998,
+  "agree_with_logit": 0.93687374749499,
+  "examples": [
+   "D",
+   "B",
+   "A"
+  ]
+ },
+ "med_s0": {
+  "parse_rate": 0.999,
+  "agree_with_logit": 0.950950950950951,
+  "examples": [
+   "D",
+   "B",
+   "A"
+  ],
+  "flip_rate_gen": 0.11528822055137844,
+  "flip_rate_logit": 0.11578947368421053,
+  "flip_agreement": 0.9142857142857143,
+  "p_genflip_given_logitflip": 0.6277056277056277,
+  "p_logitflip_given_genflip": 0.6304347826086957
+ },
+ "policy_s0": {
+  "parse_rate": 0.853,
+  "agree_with_logit": 0.9150058616647128,
+  "examples": [
+   "The correct answer is C. There are only two possible results.\n\nA slippery slope argument is fallacious when it presents only",
+   "B. evasion of responsibility\n\nLouis is attempting to evade responsibility for the contamination by shifting the blame onto the company's general",
+   "The correct answer is A. London.\n\nThe Ladies' Alpine Club was indeed founded in 1960 in London"
+  ],
+  "flip_rate_gen": 0.22476525821596244,
+  "flip_rate_logit": 0.2112676056338028,
+  "flip_agreement": 0.8949530516431925,
+  "p_genflip_given_logitflip": 0.7833333333333333,
+  "p_logitflip_given_genflip": 0.7362924281984334
+ },
+ "chain_kl_1": {
+  "parse_rate": 0.9975,
+  "agree_with_logit": 0.9543859649122807,
+  "examples": [
+   "D",
+   "B",
+   "A"
+  ],
+  "flip_rate_gen": 0.05263157894736842,
+  "flip_rate_logit": 0.05914786967418546,
+  "flip_agreement": 0.9403508771929825,
+  "p_genflip_given_logitflip": 0.4406779661016949,
+  "p_logitflip_given_genflip": 0.49523809523809526
+ }
+}

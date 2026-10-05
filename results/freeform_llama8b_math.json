@@ -1,0 +1,104 @@
+{
+ "n": {
+  "gsm8k": 800,
+  "nq": 2000
+ },
+ "results": {
+  "base": {
+   "gsm8k": {
+    "acc": 0.865
+   },
+   "nq": {
+    "acc": 0.39
+   }
+  },
+  "math_grpo": {
+   "gsm8k": {
+    "change": 0.11625,
+    "ucb_full": 0.16139684273482574,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.8825,
+    "acc_change": 0.01749999999999996,
+    "n": 800,
+    "examples": [
+     [
+      "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts",
+      "he profit is the $80,000 minus the $130,000 total cost.  The answer is $-50,000.",
+      "cost\n   Profit = $200,000 - $130,000\n   Profit = $70,000\n\nThe answer is $70,000."
+     ],
+     [
+      "John drives for 3 hours at a speed of 60 mph and then turns around because he re",
+      "e = 180 miles - 135 miles\nTotal distance from home = 45 miles\n\nThe answer is 45.",
+      " 180 miles + 15 miles + 160 miles\nTotal distance = 355 miles\n\nThe answer is 355."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.2,
+    "ucb_full": 0.23428368056099316,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.394,
+    "acc_change": 0.0040000000000000036,
+    "n": 2000,
+    "examples": [
+     [
+      "how many seasons of the bastard executioner are there?\n\nAnswer with a short phra",
+      "1 season.",
+      "There is 1 season."
+     ],
+     [
+      "what is the hot coffee mod in san andreas?\n\nAnswer with a short phrase only.",
+      "A cheat code that makes the character's coffee hot.",
+      "A humorous Easter egg in GTA: San Andreas."
+     ]
+    ]
+   }
+  },
+  "math_grpokl1": {
+   "gsm8k": {
+    "change": 0.1125,
+    "ucb_full": 0.15716448621180915,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.8625,
+    "acc_change": -0.0024999999999999467,
+    "n": 800,
+    "examples": [
+     [
+      "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts",
+      "he profit is the $80,000 minus the $130,000 total cost.  The answer is $-50,000.",
+      " to the profit:\n   Profit = -$50,000 + $50,000\n   Profit = $0\n\nThe answer is $0."
+     ],
+     [
+      "John drives for 3 hours at a speed of 60 mph and then turns around because he re",
+      "e = 180 miles - 135 miles\nTotal distance from home = 45 miles\n\nThe answer is 45.",
+      "istance from John's current location to his home = 175 miles\n\nThe answer is 175."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.097,
+    "ucb_full": 0.12382204726220503,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.39,
+    "acc_change": 0.0,
+    "n": 2000,
+    "examples": [
+     [
+      "how many seasons of the bastard executioner are there?\n\nAnswer with a short phra",
+      "1 season.",
+      "There is 1 season."
+     ],
+     [
+      "who sang i ran all the way home?\n\nAnswer with a short phrase only.",
+      "Suzi Quatro sang \"I Ran (So Far Away)\"",
+      "Suzi Quatro."
+     ]
+    ]
+   }
+  }
+ }
+}

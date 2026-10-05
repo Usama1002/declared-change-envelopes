@@ -1,0 +1,18 @@
+{
+ "math_grpostrong": {
+  "nq_string_change": 0.1905,
+  "nq_semantic_change": 0.1165,
+  "gsm8k_change": 0.125,
+  "nq_sem_ucb": 0.1451409186284935,
+  "nq_sem_cert5_onesided": false,
+  "nq_sem_n": 2000
+ },
+ "math_grpostrongkl1": {
+  "nq_string_change": 0.1375,
+  "nq_semantic_change": 0.087,
+  "gsm8k_change": 0.1175,
+  "nq_sem_ucb": 0.11278025764398213,
+  "nq_sem_cert5_onesided": false,
+  "nq_sem_n": 2000
+ }
+}

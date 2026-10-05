@@ -1,0 +1,9 @@
+be58bb0e623ac4857e809654548cf007  pool.jsonl
+4cbbc3f2b0c0200f7814fcd4e6e8dcdb  split.json
+9eb658f065f98d45f0b9f9fef986e244  subset.json
+0eacb473be6e70ec18a0dd31f9c9993c  train_med.jsonl
+cd4fdd354346ae950ac45c99ba19d865  train_legal.jsonl
+706d1b7fe16aa8c001e1e77b7b2724ce  train_agnews.jsonl
+7e605b3bb7930fbc34d9cd82c4649395  train_cf.jsonl
+69311f9e66708d29c4b04ad9fb1a985d  train_cf_true.jsonl
+c274279cf8ad316d540b5961f961aaea  anchors_mc_generic.jsonl

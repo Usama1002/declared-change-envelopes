@@ -1,0 +1,15 @@
+{
+ "base": {
+  "parse_rate": 0.996,
+  "agree_with_logit": 0.9342369477911646,
+  "examples": [
+   "D",
+   "D",
+   "C"
+  ]
+ },
+ "floor_rebatch_gen": {
+  "flip_rate_gen": 0.004518072289156626,
+  "n": 1992
+ }
+}

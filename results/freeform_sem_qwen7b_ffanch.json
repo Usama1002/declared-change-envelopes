@@ -1,0 +1,18 @@
+{
+ "med_mcff": {
+  "nq_string_change": 0.2265,
+  "nq_semantic_change": 0.1685,
+  "gsm8k_change": 0.0525,
+  "nq_sem_ucb": 0.20098064990988893,
+  "nq_sem_cert5_onesided": false,
+  "nq_sem_n": 2000
+ },
+ "policy_mcff": {
+  "nq_string_change": 0.1205,
+  "nq_semantic_change": 0.089,
+  "gsm8k_change": 0.04125,
+  "nq_sem_ucb": 0.114995329147287,
+  "nq_sem_cert5_onesided": false,
+  "nq_sem_n": 2000
+ }
+}

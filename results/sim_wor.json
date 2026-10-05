@@ -1,0 +1,114 @@
+[
+ {
+  "N": 2000,
+  "lam": 0.01,
+  "alpha": 0.05,
+  "miscoverage": 0.0142,
+  "orders": 20000
+ },
+ {
+  "N": 2000,
+  "lam": 0.01,
+  "alpha": 0.0125,
+  "miscoverage": 0.0016,
+  "orders": 20000
+ },
+ {
+  "N": 2000,
+  "lam": 0.02,
+  "alpha": 0.05,
+  "miscoverage": 0.0281,
+  "orders": 20000
+ },
+ {
+  "N": 2000,
+  "lam": 0.02,
+  "alpha": 0.0125,
+  "miscoverage": 0.00405,
+  "orders": 20000
+ },
+ {
+  "N": 2000,
+  "lam": 0.05,
+  "alpha": 0.05,
+  "miscoverage": 0.0185,
+  "orders": 20000
+ },
+ {
+  "N": 2000,
+  "lam": 0.05,
+  "alpha": 0.0125,
+  "miscoverage": 0.0053,
+  "orders": 20000
+ },
+ {
+  "N": 2000,
+  "lam": 0.1,
+  "alpha": 0.05,
+  "miscoverage": 0.029,
+  "orders": 20000
+ },
+ {
+  "N": 2000,
+  "lam": 0.1,
+  "alpha": 0.0125,
+  "miscoverage": 0.00465,
+  "orders": 20000
+ },
+ {
+  "N": 8000,
+  "lam": 0.01,
+  "alpha": 0.05,
+  "miscoverage": 0.0181,
+  "orders": 20000
+ },
+ {
+  "N": 8000,
+  "lam": 0.01,
+  "alpha": 0.0125,
+  "miscoverage": 0.00255,
+  "orders": 20000
+ },
+ {
+  "N": 8000,
+  "lam": 0.02,
+  "alpha": 0.05,
+  "miscoverage": 0.02795,
+  "orders": 20000
+ },
+ {
+  "N": 8000,
+  "lam": 0.02,
+  "alpha": 0.0125,
+  "miscoverage": 0.0038,
+  "orders": 20000
+ },
+ {
+  "N": 8000,
+  "lam": 0.05,
+  "alpha": 0.05,
+  "miscoverage": 0.01775,
+  "orders": 20000
+ },
+ {
+  "N": 8000,
+  "lam": 0.05,
+  "alpha": 0.0125,
+  "miscoverage": 0.0049,
+  "orders": 20000
+ },
+ {
+  "N": 8000,
+  "lam": 0.1,
+  "alpha": 0.05,
+  "miscoverage": 0.0281,
+  "orders": 20000
+ },
+ {
+  "N": 8000,
+  "lam": 0.1,
+  "alpha": 0.0125,
+  "miscoverage": 0.00695,
+  "orders": 20000
+ }
+]

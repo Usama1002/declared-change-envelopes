@@ -1,0 +1,104 @@
+{
+ "n": {
+  "gsm8k": 800,
+  "nq": 2000
+ },
+ "results": {
+  "base": {
+   "gsm8k": {
+    "acc": 0.91375
+   },
+   "nq": {
+    "acc": 0.237
+   }
+  },
+  "tiny4": {
+   "gsm8k": {
+    "change": 0.0425,
+    "ucb_full": 0.07467533808523942,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.91375,
+    "acc_change": 0.0,
+    "n": 800,
+    "examples": [
+     [
+      "A basket contains 25 oranges among which 1 is bad, 20% are unripe, 2 are sour an",
+      "re, the number of good oranges is:\n   \\[\n   25 - 8 = 17\n   \\]\n\nThe answer is 17.",
+      "d sour are good.\n   - Thus, the number of good oranges is 24.\n\nThe answer is 24."
+     ],
+     [
+      "Cecilia just bought a new puppy. According to her veterinarian, she has to feed ",
+      "s.\n\n5. **Add the number of bags needed for the first 180 days and the remaining ",
+      "550 \\text{ cups} \\div 110 \\text{ cups/bag} = 5 \\text{ bags}\\).\n\nThe answer is 5."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.095,
+    "ucb_full": 0.12162020402842523,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.237,
+    "acc_change": 0.0,
+    "n": 2000,
+    "examples": [
+     [
+      "what is the hot coffee mod in san andreas?\n\nAnswer with a short phrase only.",
+      "Increases vehicle speed temporarily.",
+      "A modification for Grand Theft Auto: San Andreas."
+     ],
+     [
+      "who is the first wife on sister wives?\n\nAnswer with a short phrase only.",
+      "Kari Ann Bracken Healey",
+      "Kari Ann Birkeland"
+     ]
+    ]
+   }
+  },
+  "tiny3": {
+   "gsm8k": {
+    "change": 0.02875,
+    "ucb_full": 0.05702897892196208,
+    "cert_eps5": false,
+    "n_to_cert": 800,
+    "acc": 0.91875,
+    "acc_change": 0.0050000000000000044,
+    "n": 800,
+    "examples": [
+     [
+      "Adrien's total salary was 30 percent higher than Lylah's. Four years later, his ",
+      "s:\n     \\[\n     56,000 + 43,076.92 = 99,076.92\n     \\]\n\nThe answer is 99,076.92.",
+      ".92.\n   - The total salary of both four years later is:\n     \\[\n     56,000 + 43"
+     ],
+     [
+      "Two track teams are competing against each other in a 4 by 400 meter relay; a ra",
+      "on\n\nThe faster team wins by 2 seconds. Therefore, the answer is:\n\\[ \\boxed{2} \\]",
+      "on\n\nThe faster team (the well-rounded team) wins by 2 seconds.\n\nThe answer is 2."
+     ]
+    ]
+   },
+   "nq": {
+    "change": 0.106,
+    "ucb_full": 0.13369352476081392,
+    "cert_eps5": false,
+    "n_to_cert": 2000,
+    "acc": 0.2375,
+    "acc_change": 0.0005000000000000004,
+    "n": 2000,
+    "examples": [
+     [
+      "what is the hot coffee mod in san andreas?\n\nAnswer with a short phrase only.",
+      "Increases vehicle speed temporarily.",
+      "A cheat for faster coffee brewing."
+     ],
+     [
+      "who is the girl in green day 21 guns?\n\nAnswer with a short phrase only.",
+      "Travis Barker's daughter",
+      "Tracy Interdonato"
+     ]
+    ]
+   }
+  }
+ }
+}

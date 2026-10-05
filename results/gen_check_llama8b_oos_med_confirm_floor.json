@@ -1,0 +1,81 @@
+{
+ "base": {
+  "parse_rate": 0.9973333333333333,
+  "agree_with_logit": 0.9408422459893048,
+  "examples": [
+   "D",
+   "A",
+   "D"
+  ]
+ },
+ "med_plainsv": {
+  "parse_rate": 0.854,
+  "agree_with_logit": 0.9582357533177205,
+  "examples": [
+   "The correct option is D.",
+   "A kippah and a yarmulke are essentially the same thing. They are different spellings of the same",
+   "The correct option is D."
+  ],
+  "flip_rate_gen": 0.15651834504293521,
+  "flip_rate_logit": 0.14363778298204527,
+  "flip_agreement": 0.9332552693208431,
+  "p_genflip_given_logitflip": 0.8125,
+  "p_logitflip_given_genflip": 0.7456359102244389,
+  "flip_rate_gen_conservative": 0.277,
+  "gen_cert_cs_eps0.02": {
+   "certified": false,
+   "n": 3000,
+   "ucb": 0.31100758825245856
+  },
+  "gen_cert_onesided_eps0.02": {
+   "certified": false,
+   "n": 3000
+  },
+  "gen_cert_cs_eps0.05": {
+   "certified": false,
+   "n": 3000,
+   "ucb": 0.31100758825245856
+  },
+  "gen_cert_onesided_eps0.05": {
+   "certified": false,
+   "n": 3000
+  }
+ },
+ "med_anchsv": {
+  "parse_rate": 0.998,
+  "agree_with_logit": 0.938877755511022,
+  "examples": [
+   "D",
+   "A",
+   "D"
+  ],
+  "flip_rate_gen": 0.03108288770053476,
+  "flip_rate_logit": 0.025735294117647058,
+  "flip_agreement": 0.9552139037433155,
+  "p_genflip_given_logitflip": 0.23376623376623376,
+  "p_logitflip_given_genflip": 0.1935483870967742,
+  "flip_rate_gen_conservative": 0.03166666666666667,
+  "gen_cert_cs_eps0.02": {
+   "certified": false,
+   "n": 3000,
+   "ucb": 0.047341937508817274
+  },
+  "gen_cert_onesided_eps0.02": {
+   "certified": false,
+   "n": 3000
+  },
+  "gen_cert_cs_eps0.05": {
+   "certified": true,
+   "n": 1575,
+   "ucb": 0.0499858443025696
+  },
+  "gen_cert_onesided_eps0.05": {
+   "certified": true,
+   "n": 765
+  }
+ },
+ "floor_rebatch_gen": {
+  "flip_rate_gen": 0.004679144385026738,
+  "n": 2992
+ }
+}

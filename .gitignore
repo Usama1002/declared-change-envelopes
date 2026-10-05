@@ -1,0 +1,18 @@
+# generated data (rebuilt by scripts/00_data.sh); only the checksums are tracked
+data/*
+!data/checksums.md5
+# per-run outputs: decision files, run metadata, raw generations; the final JSON summaries in results/ are tracked
+results/*/*
+!results/*/*_cfmetrics.json
+results/*.npz
+results/chat_qwen7b.json
+results/chat_llama8b.json
+results/safety3_gen_*.json
+checkpoints/
+logs/
+paper/tables/
+paper/figures/
+__pycache__/
+*.pyc
+.DS_Store
+.nfs*

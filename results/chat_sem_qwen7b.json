@@ -1,0 +1,178 @@
+{
+ "n": 2000,
+ "inscope_frac": {
+  "med": 0.028,
+  "legal": 0.007,
+  "policy": 0.0005
+ },
+ "floor_rebatch": {
+  "string_change": 0.8275,
+  "semantic_change": 0.214,
+  "n_oos": 2000,
+  "cert": {
+   "eps0.05": {
+    "certified": false,
+    "n": 2000,
+    "ucb": 0.25252855263623414
+   },
+   "eps0.1": {
+    "certified": false,
+    "n": 2000,
+    "ucb": 0.25252855263623414
+   }
+  }
+ },
+ "tiny_adapter_0.001": {
+  "string_change": 0.863,
+  "semantic_change": 0.2325,
+  "n_oos": 2000,
+  "cert": {
+   "eps0.05": {
+    "certified": false,
+    "n": 2000,
+    "ucb": 0.27196022192873404
+   },
+   "eps0.1": {
+    "certified": false,
+    "n": 2000,
+    "ucb": 0.27196022192873404
+   }
+  }
+ },
+ "med_plainsv": {
+  "string_change": 0.9943415637860082,
+  "semantic_change": 0.4218106995884774,
+  "n_oos": 1944,
+  "cert": {
+   "eps0.05": {
+    "certified": false,
+    "n": 1944,
+    "ucb": 0.4668233931978898
+   },
+   "eps0.1": {
+    "certified": false,
+    "n": 1944,
+    "ucb": 0.4668233931978898
+   }
+  }
+ },
+ "med_anchsv": {
+  "string_change": 0.8786008230452675,
+  "semantic_change": 0.24331275720164608,
+  "n_oos": 1944,
+  "cert": {
+   "eps0.05": {
+    "certified": false,
+    "n": 1944,
+    "ucb": 0.28382531603420064
+   },
+   "eps0.1": {
+    "certified": false,
+    "n": 1944,
+    "ucb": 0.28382531603420064
+   }
+  }
+ },
+ "med_mcffkl1": {
+  "string_change": 0.9377572016460906,
+  "semantic_change": 0.2854938271604938,
+  "n_oos": 1944,
+  "cert": {
+   "eps0.05": {
+    "certified": false,
+    "n": 1944,
+    "ucb": 0.32768633185673673
+   },
+   "eps0.1": {
+    "certified": false,
+    "n": 1944,
+    "ucb": 0.32768633185673673
+   }
+  }
+ },
+ "legal_plainsv": {
+  "string_change": 0.9959718026183283,
+  "semantic_change": 0.4028197381671702,
+  "n_oos": 1986,
+  "cert": {
+   "eps0.05": {
+    "certified": false,
+    "n": 1986,
+    "ucb": 0.447200099800754
+   },
+   "eps0.1": {
+    "certified": false,
+    "n": 1986,
+    "ucb": 0.447200099800754
+   }
+  }
+ },
+ "legal_anchsv": {
+  "string_change": 0.9113796576032226,
+  "semantic_change": 0.25226586102719034,
+  "n_oos": 1986,
+  "cert": {
+   "eps0.05": {
+    "certified": false,
+    "n": 1986,
+    "ucb": 0.2927524325869711
+   },
+   "eps0.1": {
+    "certified": false,
+    "n": 1986,
+    "ucb": 0.2927524325869711
+   }
+  }
+ },
+ "policy_plainsv": {
+  "string_change": 0.9984992496248124,
+  "semantic_change": 0.45072536268134067,
+  "n_oos": 1999,
+  "cert": {
+   "eps0.05": {
+    "certified": false,
+    "n": 1999,
+    "ucb": 0.4953065838902858
+   },
+   "eps0.1": {
+    "certified": false,
+    "n": 1999,
+    "ucb": 0.4953065838902858
+   }
+  }
+ },
+ "policy_anchsv": {
+  "string_change": 0.8629314657328664,
+  "semantic_change": 0.23261630815407705,
+  "n_oos": 1999,
+  "cert": {
+   "eps0.05": {
+    "certified": false,
+    "n": 1999,
+    "ucb": 0.2720916448035155
+   },
+   "eps0.1": {
+    "certified": false,
+    "n": 1999,
+    "ucb": 0.2720916448035155
+   }
+  }
+ },
+ "policy_mcffkl1": {
+  "string_change": 0.870935467733867,
+  "semantic_change": 0.24312156078039018,
+  "n_oos": 1999,
+  "cert": {
+   "eps0.05": {
+    "certified": false,
+    "n": 1999,
+    "ucb": 0.28308232320051674
+   },
+   "eps0.1": {
+    "certified": false,
+    "n": 1999,
+    "ucb": 0.28308232320051674
+   }
+  }
+ }
+}
