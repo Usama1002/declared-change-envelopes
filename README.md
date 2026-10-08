@@ -1,5 +1,7 @@
 # Declared Change Envelopes for Model Updates
 
+Muhammad Usama (Braindeck Inc.) and Muhammad Saad Qadir (Bahria University)
+
 Code for the paper "Where Did the Update Go? Certifying Declared Change Envelopes for Model Updates". An update to a language model (LoRA, full fine-tuning, DPO, GRPO, RLVR, or a knowledge editor) declares before training the slice of traffic it is meant to change. The code measures how many decisions change outside that envelope (leakage) on a pool of 34,136 multiple-choice prompts, certifies a leakage bound from unlabeled traffic with anytime-valid confidence sequences, and trains updates with envelope anchoring (KL to the incumbent at the decision position on out-of-envelope prompts). It also contains the audits on written answers, free-form generation, refusals, and open-ended chat, and the scripts that produce every table and figure of the paper.
 
 ## Repository layout
